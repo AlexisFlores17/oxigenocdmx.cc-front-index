@@ -1,0 +1,75 @@
+.card-lencho{
+  margin-bottom: 20px;
+}
+.card-title{
+  font-size: 25px;
+}
+
+.mt10{
+  margin-top: 10px;
+}
+
+.badgeCard{
+  margin: 0 5px;
+}
+
+.rowBadge{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-header{
+  text-align: end;
+}
+
+.boton-carta{
+  cursor: pointer;
+}
+
+.map{  
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  height: 50px;
+  background-color: #196BA7;
+  color: white;
+  border-bottom-left-radius: 3%;
+}
+
+.tel{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #0090BF;  
+  border-bottom-right-radius: 3%;
+  
+}
+
+.link{  
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  height: 50px;
+  background-color: #00B2BC;
+  color: white;
+}
+
+.whatsapp{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #00D0A4;  
+  @media ( max-width: 376px){
+    font-size: 14px;
+}
+  
+}
+
+a{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
